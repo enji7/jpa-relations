@@ -10,7 +10,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 import jakarta.persistence.EntityManager;
 
-@DataJpaTest
+@DataJpaTest(showSql = false)
 class RelationTests {
 
   @Autowired
